@@ -1,0 +1,20 @@
+// Archivo de prueba para Casa Inteligente - SmartHome GT
+conf_ini // Inicio del bloque de configuracion
+
+// Modo FIESTA
+modo_fiesta
+Mensaje en LCD: "Modo: FIESTA."
+Ventilador: ON
+LED'S: Alternandose
+
+// Primer modo personalizado: "Cena"
+modo_custom: "Cena"
+Ventilador: OFF
+LED'S: sala:ON, comedor:ON, cocina: OFF, baño: OFF, habitacion:OFF
+
+// Segundo modo personalizado: "Cine"
+modo_custom: "Cine"
+Ventilador: ON
+LED'S: sala:OFF, comedor:OFF, cocina: OFF, baño: OFF, habitacion:ON
+
+conf:fin // Fin del bloque de configuracion
