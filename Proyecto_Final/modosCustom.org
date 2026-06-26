@@ -1,0 +1,11 @@
+conf_ini
+
+modo_custom: "PlantaBaja"
+Ventilador: OFF
+LED'S: sala:ON, comedor:ON, cocina:ON, bano:OFF, habitacion:OFF
+
+modo_custom: "PlantaAlta"
+Ventilador: ON
+LED'S: sala:OFF, comedor:OFF, cocina:OFF, bano:ON, habitacion:ON
+
+conf:fin
